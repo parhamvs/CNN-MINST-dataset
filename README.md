@@ -6,6 +6,8 @@ The MNIST dataset consists of 60,000 training images of handwritten digits and 1
 
 The dataset is loaded from Train.pkl and Train_labels.csv files, which contain the training images and their labels, respectively. The loaded data is visualized using matplotlib.
 
+<img src="Images/Unknown-21.png" width=300>
+
 The data is then converted into PyTorch TensorDataset and split into training and testing sets using torch.utils.data.random_split. The training set is further split into mini-batches using DataLoader.
 
 # Model
